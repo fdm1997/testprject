@@ -4,4 +4,6 @@ spring:
   application:
     name: testproject
 
-
+server:
+  tomcat:
+    uri-encoding: utf-8

@@ -8,10 +8,12 @@ import org.springframework.context.annotation.Configuration;
 @SpringBootApplication
 @MapperScan(basePackages = "com.fdm")
 @Configuration
-public class TestpojectApplication {
+public class  TestpojectApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(TestpojectApplication.class, args);
+
     }
+
 
 }
